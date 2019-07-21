@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {},
   "devDependencies": {
@@ -29,6 +31,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "gh-pages": "^2.0.1",
     "highlight.js": "^9.13.1",
     "html-webpack-plugin": "^2.30.1",
     "markdown-it-anchor": "^5.0.2",
