@@ -4,11 +4,11 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
+// -------------------------------------------------------- markdown 处理start ----------------------------------------------------------------
 
 const md = require('markdown-it')(); // 引入markdown-it
 const slugify = require('transliteration').slugify; // 引入transliteration中的slugify方法
 const striptags = require('./strip-tags'); // 引入刚刚的工具类
-
 
 /**
  * 由于cheerio在转换汉字时会出现转为Unicode的情况,所以我们编写convert方法来保证最终转码正确
@@ -96,6 +96,7 @@ const vueMarkdown = {
   }
 }
 
+// -------------------------------------------------------- markdown 处理end ----------------------------------------------------------------
 
 function resolve(dir) {
   return path.join(__dirname, '..', dir)
@@ -175,13 +176,5 @@ module.exports = {
     tls: 'empty',
     child_process: 'empty'
   },
-  plugins: [
-    // new webpack.ProvidePlugin({
-    //   $: "jquery",
-    //   jQuery: "jquery",
-    //   jquery: "jquery",
-    //   "window.jQuery": "jquery",
-    //   'd3': 'd3'
-    // }),
-  ]
+  plugins: []
 }

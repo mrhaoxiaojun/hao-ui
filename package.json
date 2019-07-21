@@ -1,8 +1,8 @@
 {
-  "name": "hai-ui",
-  "version": "1.0.2",
+  "name": "hao-ui",
+  "version": "1.0.0",
   "description": "A Component Library for Vue.js",
-  "author": "hxh2010 <31460355+hxh2010@users.noreply.github.com>",
+  "author": "haoxiaojun <qq1458149969>",
   "main": "package/index.js",
   "private": false,
   "license": "MIT",

@@ -1,14 +1,14 @@
 {
   "name": "theme-set",
   "version": "1.0.0",
-  "description": "About HaiUI theme",
+  "description": "About HaoUI theme",
   "main": "index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",
     "build": "gulp build"
   },
   "keywords": [
-    "hai-ui",
+    "hao-ui",
     "theme"
   ],
   "devDependencies": {
@@ -23,6 +23,6 @@
     "poststylus": "^1.0.0"
   },
   "dependencies": {},
-  "author": "hxh2010 <31460355+hxh2010@users.noreply.github.com>",
+  "author": "haoxiaojun <qq1458149969>",
   "license": "ISC"
 }
