@@ -2,7 +2,7 @@
 # github deploy
 
 ----
-***如何在 GitHub Pages 上部署 vue-cli 项目  ***
+***如何在 GitHub Pages 上部署 vue-cli 项目 ***
 
 **需要注意的坑（改成相对路径才可以直接访问生成的静态文件）**
 
