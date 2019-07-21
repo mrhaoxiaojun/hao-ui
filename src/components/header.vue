@@ -6,7 +6,7 @@
         <div>Hao-UI</div>
       </div>
       <div class="list">
-        <div class="list-son" @click="$router.push({ path: '/icon' })">组件</div>
+        <div class="list-son" @click="$router.push({ path: '/icon' })">组件1</div>
         <div class="list-son" @click="$router.push({ path: '/create' })">笔记</div>
       </div>
   </div>

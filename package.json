@@ -1,6 +1,7 @@
 {
   "name": "hao-ui",
   "version": "1.0.0",
+  "homepage":"https://mrhaoxiaojun.github.io/hao-ui",
   "description": "A Component Library for Vue.js",
   "author": "haoxiaojun <qq1458149969>",
   "main": "package/index.js",
