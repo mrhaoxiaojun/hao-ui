@@ -65,6 +65,11 @@
       "name": "iconfont",
       "path": "/iconfont",
       "desc": "Iconfont"
+    },
+    {
+      "name": "deploy",
+      "path": "/deploy",
+      "desc": "github部署"
     }
   ]
 }

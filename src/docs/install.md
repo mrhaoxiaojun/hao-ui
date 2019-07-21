@@ -6,7 +6,7 @@
 凑个页数啦~~
 
 ```bash
-npm install hai-ui --save
+npm install hao-ui --save
 ```
 
 

@@ -174,7 +174,7 @@ Vue.prototype 添加了全局方法 $message。因此在 vue instance 中可以�
 单独引入：
 
 ```javascript
-import { Message } from 'hai-ui';
+import { Message } from 'hao-ui';
 ```
 
 ### Options

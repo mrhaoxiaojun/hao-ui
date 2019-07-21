@@ -8,8 +8,8 @@
 
 ```bash
 > npm install vue-cli -g
-> vue init webpack hai-ui
-> cd hai-ui
+> vue init webpack hao-ui
+> cd hao-ui
 > npm i
 ```
 

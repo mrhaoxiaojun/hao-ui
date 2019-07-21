@@ -7,10 +7,10 @@
 可以在项目的入口文件中引入所有组件或所需组件
 
 ```js
-import HaiUI from 'hai-ui' // 引入组件库
-import 'hai-ui/packages/theme-set/lib/index.css' // 引入样式库
+import haoUI from 'hao-ui' // 引入组件库
+import 'hao-ui/packages/theme-set/lib/index.css' // 引入样式库
 
-Vue.use(HaiUI)
+Vue.use(haoUI)
 ```
 
 ### 单个组件按需使用
@@ -18,7 +18,7 @@ Vue.use(HaiUI)
 可以局部注册所需的组件，适用于与其他框架组合使用的场景
 
 ```js
-import { HButton } from 'hai-ui'
+import { HButton } from 'hao-ui'
 
 export default {
   components: {
@@ -37,4 +37,4 @@ export default {
 
 ### 自定义主题
 
-`UI` 基于stylus,可修改 `hai-ui/packages/theme-set/common/var.css` 文件自定义主题
+`UI` 基于stylus,可修改 `hao-ui/packages/theme-set/common/var.css` 文件自定义主题
