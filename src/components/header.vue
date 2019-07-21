@@ -3,7 +3,7 @@
   <div class="header">
       <div class="logo">
         <img src="../assets/img/hai.png">
-        <div>Hai-UI</div>
+        <div>Hao-UI</div>
       </div>
       <div class="list">
         <div class="list-son" @click="$router.push({ path: '/icon' })">组件</div>
