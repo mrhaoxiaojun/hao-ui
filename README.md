@@ -1,7 +1,7 @@
-# hai-ui  嗨！o(*￣︶￣*)o
+# hao-ui  嗨！o(*￣︶￣*)o
 
 > `hao-UI` 是一款基于 `Vuecli2x`脚手架搭建的vue组件库 ，在学习借鉴```element-ui vv-ui```等成熟架构后搭建了自己的前端 UI 组件库，用于学习
-- `在线演示：` [Hai-UI](https://mrhaoxiaojun.github.io/hao-ui/#/)
+- `在线演示：` [Hao-UI](https://mrhaoxiaojun.github.io/hao-ui/#/)
 
 
 ### 安装
