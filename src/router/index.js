@@ -22,8 +22,9 @@ let addComponent = (router) => {
   })
 }
 
+
 addComponent(routes)
-routes.push({ path: '/', redirect: '/giud' })
+routes.push({ path: '/', component: ()=> import ("@/pages/index")})
 export default new Router({
   routes: routes
 })

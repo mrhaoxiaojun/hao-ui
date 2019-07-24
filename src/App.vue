@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <div class="app-main">
+    <Header v-if="!isShowHome"></Header>
+    <div class="app-main" v-if="!isShowHome">
       <div class="app-main-left">
         <Menu></Menu>
       </div>
@@ -9,16 +9,34 @@
         <router-view/>
       </div>
     </div>
+    <div v-if="isShowHome">
+       <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
   import Menu from './components/menu.vue';
   import Header from './components/header.vue';
+import { constants } from 'crypto';
 export default {
   name: 'App',
+  data(){
+    return{
+      isShowHome:false
+    }
+  },
   components:{
     Menu,Header
+  },
+  watch: {
+    '$route' (to, from) {
+      this.isShowHome = window.location.hash === '#/' ? true : false
+    }
+  },
+  created(){
+   console.log(122)
+   this.isShowHome = window.location.hash === '#/' ? true : false
   }
 }
 </script>

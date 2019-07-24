@@ -1,21 +1,10 @@
-# 样式管理 o(*￣︶￣*)o
+# 样式管理
 
 ---
 
-- 对项目的样式进行统一管理打包，方便外部引用
-
-<style scoped>
-  .img{
-     margin-left:30px;
-     height:612px;
-     width:404px;
-     background: url("../assets/img/theme-set.jpg") no-repeat;
-  }
-</style>
-<div class="img"></div>
+- 对项目的样式进行统一管理打包，方便外部引用，也可以方便换肤(pagckage/theme-set)
 
 ## gulpfile.js
-- 不断的尝试
 
 ```javascript
 

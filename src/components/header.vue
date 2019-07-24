@@ -2,7 +2,7 @@
 <template>
   <div class="header">
       <div class="logo">
-        <img src="../assets/img/hai.png">
+        <img src="../assets/img/hao.png">
         <div>Hao-UI</div>
       </div>
       <div class="list">
@@ -45,6 +45,9 @@
       &>img
         width 50px
         height 50px
+        background: #fff;
+        border-radius: 50%;
+        padding: 1px;
     .list
       height: 80px;
       display: inline-flex;
