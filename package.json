@@ -1,7 +1,7 @@
 {
   "name": "hao-ui",
   "version": "1.0.0",
-  "homepage":"https://mrhaoxiaojun.github.io/hao-ui",
+  "homepage": "https://mrhaoxiaojun.github.io/hao-ui",
   "description": "A Component Library for Vue.js",
   "author": "haoxiaojun <qq1458149969>",
   "main": "package/index.js",
@@ -11,8 +11,8 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {},
   "devDependencies": {
