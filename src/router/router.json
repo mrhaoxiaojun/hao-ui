@@ -57,6 +57,11 @@
           "desc": "BreadCrumb 面包屑",
           "name": "breadCrumb",
           "path": "/breadCrumb"
+        },
+        {
+          "desc": "PayPwd 支付密码",
+          "name": "payPwd",
+          "path": "/payPwd"
         }
       ]
     }

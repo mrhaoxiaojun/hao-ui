@@ -1,6 +1,8 @@
 # modalMore
 
 ----
+### 概述
+
 - 多窗体modal组件，目的是为了实现多窗体-提供拖拽、最大化、最小化、还原、关闭、resize
 
 ### 基础用法
@@ -365,16 +367,17 @@
 :::
 
 ### Attributes
-| 参数      | 说明    | 类型      | 可选值       | 默认值   |
-|---------- |-------- |---------- |-------------  |-------- |
+| 参数      | 说明    | 类型      | 可选值    | 默认值   |  备注  |
+|---------- |-------- |---------- |-------------  |-------- |-------- |
 | data     | 当前窗体使用数据-（**配合widgetResize回调使用**）   | Object  |   —    |    {}     |
-| widgetShowProps     | 是否显示   | Boolean  |   必填    |    false     |
+| widgetShowProps     | 是否显示   | Boolean  |   必填 |    false     |
+| widgetShowMask     | 是否显示遮罩   | Boolean  |   —    |    false     | 显示遮罩不支持多窗体
 | widgetTitle     | 窗体title   | String    |   — |     test    |
 | widgetIconStyle     | 窗体title部分icon   | Object    | — | { iconType: 'ios-albums', iconClass: 'iconfont icon-loudou' }   |
 | widgetSize     | 传入尺寸（**每个字段均为Number类型**）   | Object    | — |  { defaultW: 默认右侧工作区域宽度, defaultH: auto, maxW: 默认右侧工作区域宽度, maxH: 默认右侧工作区域高度, minW: 默认150, minH:默认150 }   |
-| getDocTopdomid     | 顶部-头DOM id   | String    | 请给自己对应div添加id | common-header   |
-| getDocLeftdomid     | 左侧-菜单DOM id   | String    | 请给自己对应div添加id | view-tree-left   |
-| getDocRightdomid  | 右侧工作区DOM id    | String   | 请给自己对应div添加id   | view-tree-right   |
+| getDocTopdomid     | 顶部-头DOM id   | String    | —  | common-header   | 请给自己对应div添加id
+| getDocLeftdomid     | 左侧-菜单DOM id   | String    | — | view-tree-left   | 请给自己对应div添加id
+| getDocRightdomid  | 右侧工作区DOM id    | String   | —   | view-tree-right   | 请给自己对应div添加id
 | stopWorkspaceLeft  | 是否停靠至-工作区左边    | Boolean   | —   | false   |
 | stopDocBottom  | 是否停靠至-窗体底部边   | Boolean   | —   | false  |
 | stopDocTop  | 多窗体距离窗体的top距离-（如果stopDocBottom为true的时候失效）    | Number   | —   | 100   |

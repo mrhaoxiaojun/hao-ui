@@ -1,16 +1,9 @@
 @deep: ~">>>";
 
 .h-modal-widget-wrap{
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1000;
-  outline: 0;
   .h-modal-widget{
-    position: absolute;
+    position: fixed;
+    z-index: 1001;
     background-color: #fff;
     border: 0;
     border-radius: 6px;
@@ -70,7 +63,7 @@
         }
     }
   }
-  .mx-modal-mask{
+  .h-modal-mask{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -80,6 +73,18 @@
     height: 100%;
     z-index: 1000;
     pointer-events: none
+  }
+  .h-modal-bgMask{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    outline: 0;
+    background: #000;
+    opacity: 0.4;
   }
 }
 

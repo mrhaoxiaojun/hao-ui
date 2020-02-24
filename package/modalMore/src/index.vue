@@ -44,7 +44,8 @@
         <div class="frame" v-show="is_moving"></div>
       </div>
     </div>
-    <div class="mx-modal-mask" ref="maskDom" v-if="is_showMask"></div>
+    <div class="h-modal-mask" ref="maskDom" v-if="is_showMask"></div>
+    <div class="h-modal-bgMask" v-if="widgetShowMask"></div>
   </div>
 </template>
 
@@ -58,10 +59,15 @@ export default {
       type: Object,
       default: () => {}
     },
-    // 是否显示
+    // 是否显示modal
     widgetShowProps: {
       type: Boolean,
       default: true
+    },
+    // 是否显示遮罩
+    widgetShowMask:{
+      type: Boolean,
+      default: false
     },
     // 窗体title
     widgetTitle: {

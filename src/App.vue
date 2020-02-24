@@ -35,7 +35,6 @@ export default {
     }
   },
   created(){
-   console.log(122)
    this.isShowHome = window.location.hash === '#/' ? true : false
   }
 }
@@ -50,7 +49,7 @@ export default {
     width: 100%;
     .app-main-left
       padding-left:20px;
-      min-width 230px
+      min-width 280px
       position relative
     .app-main-right
       padding-right:20px;

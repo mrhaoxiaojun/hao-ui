@@ -4,12 +4,13 @@ import collapseTransition from './collapse-transition/collapse-transition.js';
 import Message from './message/index.js';
 import BreadCrumb from './breadCrumb/index'
 import ModalMore from './ModalMore/index'
-
+import PayPwd from './payPwd/index'
 
 const components = [
   Button,
   BreadCrumb,
   ModalMore,
+  PayPwd,
   collapseTransition,
 ]
 
@@ -24,5 +25,6 @@ export default {
   Message,
   BreadCrumb,
   ModalMore,
+  PayPwd,
   collapseTransition,
 }
