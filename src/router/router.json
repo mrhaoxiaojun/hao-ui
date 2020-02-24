@@ -43,6 +43,22 @@
           "path": "/message"
         }
       ]
+    },
+    {
+      "desc": "view",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "ModalMore 多窗体",
+          "name": "modalMore",
+          "path": "/modalMore"
+        },
+        {
+          "desc": "BreadCrumb 面包屑",
+          "name": "breadCrumb",
+          "path": "/breadCrumb"
+        }
+      ]
     }
   ],
   "笔记": [

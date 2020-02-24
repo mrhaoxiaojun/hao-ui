@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <Header v-if="!isShowHome"></Header>
+    <Header v-if="!isShowHome" id="common-header"></Header>
     <div class="app-main" v-if="!isShowHome">
-      <div class="app-main-left">
+      <div class="app-main-left" id="app-main-left">
         <Menu></Menu>
       </div>
-      <div class="app-main-right">
+      <div class="app-main-right" id="app-main-right">
         <router-view/>
       </div>
     </div>
@@ -47,11 +47,13 @@ export default {
     display: flex;
     min-width: 1101px;
     margin: 0 auto 50px auto;
-    width: 85%;
+    width: 100%;
     .app-main-left
+      padding-left:20px;
       min-width 230px
       position relative
     .app-main-right
+      padding-right:20px;
       position relative
       padding-top 15px
       flex 1
