@@ -54,6 +54,11 @@
           "path": "/modalMore"
         },
         {
+          "desc": "Tree 树",
+          "name": "tree",
+          "path": "/tree"
+        },
+        {
           "desc": "BreadCrumb 面包屑",
           "name": "breadCrumb",
           "path": "/breadCrumb"

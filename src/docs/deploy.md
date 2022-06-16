@@ -16,7 +16,7 @@
 
 先将本地工程push到远程master分支
 
-**方法一：**
+## **方法一：**
 
 如果你的确想用 gh-pages（或别的什么目录名）的话，以下是一种最简单的方法：将 dist 下的所有文件夹 push 到 gh-pages
 
@@ -31,7 +31,7 @@
 `origin` 是 remote name
 `gh-pages` 是目标分支名称
 
-**方法二：**
+## **方法二：**
 
 ```js
 cd dist // 进入dist目录
@@ -43,7 +43,7 @@ git remote add origin https://github.com//xxx.xx.git // 设置远程仓库地址
 git push origin gh-pages // 推送到目标分支gh-pages
 ```
 
-**方法三**
+## **方法三(当前采用该方法)**
 
 1、npm 安装gh-pages `npm install gh-pages --save-dev`
 
@@ -67,6 +67,13 @@ git push origin gh-pages // 推送到目标分支gh-pages
  **注意：**
 
 > package.json里面homepages影响项目发布后的js的相对路径，因为它编译的时候会改变js和css路径，比如：如果你添加了homepages，那么你发布的js路径就变成了/your-repository/../../xx.js了，否则就会变成/../../xx.js
+
+## **方法四(推荐)**
+
+[GitHub-Actions(CICD)自动部署](https://mrhaoxiaojun.github.io/ibooks/views/operations/2020/GitHub-Actions(CICD)%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html#%E8%AE%BE%E7%BD%AE-secrets)
+
+
+## 参考地址
 
 - 参考：[git subtree push1](https://www.jianshu.com/p/cc053119f119)
 - 参考：[git subtree push2](https://segmentfault.com/q/1010000007913675?_ea=1490992)
